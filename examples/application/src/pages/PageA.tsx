@@ -1,7 +1,31 @@
-export default function PageA() {
+import { PrefixedBrowserRouter, Route, Routes } from "react-router-dom-with-prefix";
+import NavigationBar from "../components/NavigationBar";
+
+export interface PageAProps {
+  basename: string;
+}
+
+export default function PageA({ basename }: PageAProps) {
   return (
-    <div className="page">
-      Page A
-    </div>
+    <PrefixedBrowserRouter basename={basename}>
+      <div className="page">
+        <NavigationBar
+          navButtons={[
+            {
+              navigationPath: "/nested-1",
+              children: "Nested 1",
+            },
+            {
+              navigationPath: "/nested-2",
+              children: "Nested 2",
+            },
+          ]}
+        />
+        <Routes>
+          <Route path="/nested-1" element={<div className="page">Nested 1</div>} />
+          <Route path="/nested-2" element={<div className="page">Nested 2</div>} />
+        </Routes>
+      </div>
+    </PrefixedBrowserRouter>
   );
 }

@@ -20,7 +20,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Outlet />}>
-          <Route path="/pages/a" element={<PageA />} />
+          <Route path="/pages/a/*" element={<PageA basename="/pages/a" />} />
           <Route path="/pages/b" element={<PageB />} />
           <Route path="*" element={<div>not found</div>} />
         </Route>

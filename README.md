@@ -24,7 +24,7 @@
 1. [x] `useLocation`
 1. [ ] `useMatch`
 1. [ ] `useMatches`
-1. [ ] `useNavigate`
+1. [x] `useNavigate`
 1. [ ] `useNavigation`
 1. [ ] `useNavigationType`
 1. [ ] `useOutlet`
