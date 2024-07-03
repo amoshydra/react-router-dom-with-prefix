@@ -21,7 +21,7 @@
 1. [ ] `useInRouterContext`
 1. [ ] `useLinkClickHandler`
 1. [ ] `useLoaderData`
-1. [ ] `useLocation`
+1. [x] `useLocation`
 1. [ ] `useMatch`
 1. [ ] `useMatches`
 1. [ ] `useNavigate`
