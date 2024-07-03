@@ -1,1 +1,1 @@
-export {};
+export { PrefixedBrowserRouter, PrefixedBrowserRouterProps } from "./PrefixedBrowserRouter.tsx";
