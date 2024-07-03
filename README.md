@@ -37,3 +37,9 @@
 1. [ ] `useRoutes`
 1. [ ] `useSearchParams`
 1. [ ] `useSubmit`
+
+# Components
+
+1. [x] `Link`
+1. [x] `NavLink`
+1. [x] `Navigate`

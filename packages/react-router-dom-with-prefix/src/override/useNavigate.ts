@@ -1,19 +1,6 @@
 import * as reactRouterDom  from "react-router-dom";
 import { usePrefix } from "../additional/PrefixedBrowserRouter";
-import { normalize } from "../utils/normalizePathname";
-
-const patchTo = (to: reactRouterDom.To, prefix: string) => {
-  const patchPathname = (pathname: string) => normalize(prefix + pathname);
-
-  if (typeof to === "string") {
-    return patchPathname(to);
-  }
-
-  return {
-    ...to,
-    pathname: patchPathname(to.pathname || "")
-  };
-}
+import { patchTo } from "../utils/patchTo";
 
 export const useNavigate: typeof reactRouterDom.useNavigate = (...props) => {
   const navigate = reactRouterDom.useNavigate(...props);
