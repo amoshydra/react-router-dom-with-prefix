@@ -1,5 +1,5 @@
 import { To } from "react-router-dom";
-import { usePrefixedTo } from "../utils/usePrefixedTo";
+import { usePrefixedTo } from "./usePrefixedTo.ts";
 import { ReactNode, createElement, forwardRef } from "react";
 
 export const withPrefix = <P extends { to: To }, E extends ReactNode, C extends (props: P) => E>(Comp: C): C => {
