@@ -1,3 +1,11 @@
+# React Router DOM with Prefix
+
+A Drop in replacement for `react-router-dom` that provide nested prefix routing.
+
+```diff
+-import { BrowserRouter, Routes, Route } from "react-router-dom";
++import { BrowserRouter, Routes, Route, PrefixedBrowserRouter } from "react-router-dom-with-prefix";
+```
 
 ## `PrefixedBrowserRouter`
 
@@ -49,8 +57,7 @@ The following exports are augmented with prefix awared logic
 
 ## Motivation
 
-Pending..
-
+Nesting of BrowserRouter is no longer support since v6.
 
 ## Not patched
 The following known exports are not augmented
