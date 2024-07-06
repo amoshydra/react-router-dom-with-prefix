@@ -1,10 +1,15 @@
 # React Router DOM with Prefix
 
-A Drop in replacement for `react-router-dom` that provide nested prefix routing.
+A drop-in replacement for `react-router-dom` that provides nested prefix routing.
 
 ```diff
--import { BrowserRouter, Routes, Route } from "react-router-dom";
-+import { BrowserRouter, Routes, Route, PrefixedBrowserRouter } from "react-router-dom-with-prefix";
+ import {
++  PrefixedBrowserRouter,
+   BrowserRouter,
+   Routes,
+   Route,
+-} from "react-router-dom";
++} from "react-router-dom-with-prefix";
 ```
 
 ## `PrefixedBrowserRouter`
