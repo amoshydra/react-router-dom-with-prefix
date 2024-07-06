@@ -1,7 +1,7 @@
 {
   "name": "react-router-dom-with-prefix",
   "type": "module",
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "description": "",
   "main": "lib/index.cjs",
   "module": "lib/index.mjs",
@@ -23,7 +23,11 @@
   "peerDependencies": {
     "react-router-dom": "^6.0.0"
   },
-  "keywords": ["react-router-dom", "react-router-dom-v6", "module-federation"],
+  "keywords": [
+    "react-router-dom",
+    "react-router-dom-v6",
+    "module-federation"
+  ],
   "author": "amoshydra (https://github.com/amoshydra)",
   "license": "MIT",
   "homepage": "https://github.com/amoshydra/react-router-dom-with-prefix/tree/main/packages/react-router-dom-with-prefix",
