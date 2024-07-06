@@ -14,6 +14,8 @@ A drop-in replacement for `react-router-dom` that provides nested prefix routing
 
 ## `PrefixedBrowserRouter`
 
+`PrefixedBrowserRouter` is a provider that provides route prefix to the router components and functions wrapped within it.
+
 ```tsx
 <BrowserRouter basename="/prefix-1">
   <Routes>
