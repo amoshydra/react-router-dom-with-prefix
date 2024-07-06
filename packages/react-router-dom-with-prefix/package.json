@@ -23,9 +23,14 @@
   "peerDependencies": {
     "react-router-dom": "^6.0.0"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react-router-dom", "react-router-dom-v6", "module-federation"],
+  "author": "amoshydra (https://github.com/amoshydra)",
   "license": "MIT",
+  "homepage": "https://github.com/amoshydra/react-router-dom-with-prefix/tree/main/packages/react-router-dom-with-prefix",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:amoshydra/react-router-dom-with-prefix.git"
+  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-typescript": "^11.1.6",
